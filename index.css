@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+  }
+  
+  /* div{
+    border: 1px solid red;
+  } */
+  body {
+    background-image: url(images/bg.svg);
+  }
+  .logo{
+    margin: 3% 0 0 40px;
+    width: 28%;
+}
+section {
+    display: flex;
+    flex-direction: row;
+  
+}
+  .container {
+    display: flex;
+    background-color: #313338;
+    /* padding: 20px; */
+    border-radius: 6px;
+    width: 38%;
+    font-weight: bold;
+    align-content: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+.formdiv{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+  label{
+    /* display: flex; */
+    background-color: #313339;
+    color: #b5bac1;
+    font: weight 800px;
+    border-width: 200px;
+    width: 35%;
+    font-size: 12px;
+    margin-left: 5%;
+    
+}
+  
+  input {
+    margin:2% 5% 5% 5%;
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+    background: #1e1f22;
+    color: #fff;
+    width: 90%;
+
+    /* border-width: 0px; */
+  }
+   
+input::placeholder {
+    color: #b9bbbe;
+}
+  
+  button {
+    background-color: #5865F2;
+    color: #fff;
+    border: none;
+    /* padding: 10px; */
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #4752C4;
+  }
+  
+ 
+  .dob{
+    display: flex;
+    /* width: 33%; */
+    flex-direction: row;
+    border-width: 0px;
+    margin: 2%;
+    width: 90%;
+    justify-content: space-between;
+}
+.three{
+    display: flex;
+    width: 33%;
+
+}
+p a{
+    text-decoration: none;
+    color: #00aafc;
+}
+.chckbx{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    width: 90%;
+    border-width: 0px;
+    justify-content: space-between;
+}
+.chckbx p{
+   
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 5%;
+
+}
+.check{
+    width: 23px;
+    height: 23px;
+    margin-top: 0%;
+
+}
+button{
+    display: flex;
+    background-color:  #5865f1;
+    color: white;
+    border-radius: 3px;
+    padding:10px 25px;
+    margin: 2% 5%;
+    font-size: 15px;
+    font-weight: bold;
+    border-width: 0px;
+    justify-content: center;
+    width: 90%;
+}
+
+#five{
+  color: #00aafc;
+  text-decoration: none;
+  margin-left: 5%;
+}
+  
+#five:hover{
+  text-decoration: underline;
+}
+.six{
+  text-decoration: none;
+
+}
+.six:hover{
+  text-decoration: underline;
+}
+
